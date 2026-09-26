@@ -2,7 +2,7 @@
 // Loaded on every page. Talks to the backend at the same origin ("/api/...").
 // Handles JWT storage, auth headers, and wraps every backend endpoint.
 
-const API_BASE = "/api";
+const API_BASE = "https://sukabeauty-fullstack.onrender.com/api";
 
 const Auth = {
   getToken() { return localStorage.getItem("sb_token"); },
